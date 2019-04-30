@@ -1,0 +1,20 @@
+{
+  "name": "hxTutors",
+  "homepage": "https://github.com/filypef/hxtutors",
+  "authors": [
+    "Filype Ferreira <filypeferreira.resource@natura.net>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "boostrap": "^4.3.1"
+  }
+}
