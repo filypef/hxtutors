@@ -1,4 +1,9 @@
 //Variables color
+$branco: #ffffff
+$preto: #000000
+$preto-brackground: #020d04;
+$azul-claro: #cadbdc
+$amarelo: #ffff0096;
 
 
 //Variables Font
@@ -10,3 +15,13 @@ $bold: 700
 //Variables device
 $celular: max-width 400px
 $tablet: max-width 991px
+
+=gradient($angle,$gradient1, $gradient2)
+  background-color: $gradient2 
+  background-image: -webkit-gradient(linear, $angle, from($gradient1), to($gradient2))
+  background-image: -webkit-linear-gradient($angle, $gradient1, $gradient2)
+  background-image:    -moz-linear-gradient($angle, $gradient1, $gradient2)
+  background-image:     -ms-linear-gradient($angle, $gradient1, $gradient2)
+  background-image:      -o-linear-gradient($angle, $gradient1, $gradient2)
+  background-image:         linear-gradient($angle, $gradient1, $gradient2)
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=$angle,StartColorStr='#{$gradient1}', EndColorStr='#{$gradient2}')
