@@ -1,9 +1,10 @@
 //Variables color
 $branco: #ffffff
 $preto: #000000
-$preto-brackground: #020d04;
+$preto-brackground: #020d04
 $azul-claro: #cadbdc
-$amarelo: #ffff0096;
+$azul-escuro: #3f585a
+$amarelo: #ffff0096
 
 
 //Variables Font
@@ -25,3 +26,14 @@ $tablet: max-width 991px
   background-image:      -o-linear-gradient($angle, $gradient1, $gradient2)
   background-image:         linear-gradient($angle, $gradient1, $gradient2)
   filter: progid:DXImageTransform.Microsoft.gradient(GradientType=$angle,StartColorStr='#{$gradient1}', EndColorStr='#{$gradient2}')
+
+
+=border-radius($raio)
+  border-radius: $raio
+
+@function calculateRem($size) 
+  $remSize: $size / 16px
+  @return $remSize * 1rem
+
+=font-size($size)
+  font-size: calculateRem($size)

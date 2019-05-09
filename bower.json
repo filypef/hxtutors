@@ -19,7 +19,8 @@
     "font-awesome": "^5.8.1",
     "bootstrap-sass": "^3.4.1",
     "google-maps": "^3.3.0",
-    "breakpoint-sass": "^2.7.1"
+    "breakpoint-sass": "^2.7.1",
+    "sass-flex-mixin": "^1.0.3"
   },
   "devDependencies": {
     "font-awesome": "^5.8.1",
